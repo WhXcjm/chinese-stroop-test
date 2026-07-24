@@ -6,15 +6,13 @@
 
 > 本项目在设计、代码实现与文档整理过程中使用了 OpenAI GPT 的辅助。
 
+## Stroop介绍
+
+Stroop 测试是一种经典的认知心理学实验，用于观察文字含义与文字颜色发生冲突时产生的干扰效应。本项目将其实现为简洁的中文网页版，通过 5×5 中文色词矩阵，引导用户依次判断文字的实际显示颜色，并提供计时、键盘或触屏作答、自行确认以及本地历史记录等功能，适合个人体验与教学演示。
+
 ## 在线体验
 
-启用 GitHub Pages 后，可通过以下地址访问：
-
-```text
-https://你的GitHub用户名.github.io/chinese-stroop-test/
-```
-
-请将 `你的GitHub用户名` 替换为自己的 GitHub 用户名。
+可通过[此链接](https://WhXcjm.github.io/chinese-stroop-test/)在线使用
 
 ## 功能
 
@@ -81,8 +79,7 @@ chinese-stroop-test/
 
 ## 使用 GitHub Pages 部署
 
-1. 在 GitHub 新建一个公开仓库，仓库名建议设为 `chinese-stroop-test`；
-2. 将 `index.html`、`README.md` 和 `.nojekyll` 上传到仓库根目录；
+1. **Fork** 本仓库
 3. 打开仓库的 **Settings**；
 4. 在左侧选择 **Pages**；
 5. 在 **Build and deployment** 中，将 **Source** 设为 **Deploy from a branch**；
